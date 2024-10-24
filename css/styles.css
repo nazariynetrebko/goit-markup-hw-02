@@ -109,8 +109,10 @@ body {
   color: #4d5ae5;
 }
 .section-team {
-  background-color: #f4f4fd;
   text-align: center;
+}
+.team-list {
+  background-color: #f4f4fd;
 }
 .footer-section {
   background-color: #2e2f42;
