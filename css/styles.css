@@ -3,8 +3,6 @@ body {
   color: #434455;
   line-height: 1.5;
 }
-.page-header {
-}
 .page-title {
   font-weight: bold;
   font-size: 56px;
@@ -15,6 +13,12 @@ body {
   cursor: pointer;
   font-size: 16px;
   letter-spacing: 4%;
+  background-color: #4d5ae5;
+}
+.button:active,
+.button:hover,
+.button:focus {
+  background-color: #4d5ae5;
 }
 .section-title {
   font-weight: bold;
@@ -26,7 +30,16 @@ body {
   font-size: 20px;
   letter-spacing: 2%;
 }
-.link {
+.link,
+.link:active,
+.link:focus,
+.link:hover {
   font-size: 12px;
   line-height: 1.33;
+  color: #4d5ae5;
+}
+.link:active,
+.link:focus,
+.link:hover {
+  color: #4d5ae5;
 }
